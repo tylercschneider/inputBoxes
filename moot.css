@@ -1,0 +1,65 @@
+body {
+	background-color: #ec7574;
+}
+
+body, .total, .inputs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.extra{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+}
+.total {
+	background-color: #ededed;
+	width: 65%;
+	max-width: 450px;
+	height: 260px;
+	margin-top: 150px;
+	padding: 20px;
+}
+.submit {
+	background-color: #7cdad5;
+}
+button {
+	color: #fff;
+	background-color: #7cdad5;
+	padding: 10px 30px;
+}
+.inputs input {
+	margin: 5px;
+	padding: 10px;
+	width: 60%;
+	color: grey;
+}
+.extra input {
+	margin: 5px;
+	margin-left: 15%;
+}
+.inputs {
+	margin-bottom: 20px;
+	width: 100%;
+}
+h4 {
+	margin: 0;
+	color: grey;
+	font-family: arial;
+}
+.header {
+	margin-top: 40px;
+	margin-bottom: 10px;
+
+}
+#box {
+	background-color: #fff;
+	padding: 5px;
+}
+p {
+	color: grey;
+	font-size: 11px;
+}
